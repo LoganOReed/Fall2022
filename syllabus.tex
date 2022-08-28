@@ -1,0 +1,230 @@
+% Don't touch this %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in,headheight=3ex,headsep=3ex]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+
+\newcommand{\blankline}{\quad\pagebreak[2]}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Modify Course title, instructor name, semester here %%%%%%%%
+
+\title{640:104:05 - Intro to College Algebra}
+\author{Logan Reed}
+\date{Fall 2021}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't touch this %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[sc]{mathpazo}
+\linespread{1.05} % Palatino needs more leading (space between lines)
+\usepackage[T1]{fontenc}
+\usepackage[mmddyyyy]{datetime}% http://ctan.org/pkg/datetime
+\usepackage{advdate}% http://ctan.org/pkg/advdate
+\newdateformat{syldate}{\twodigit{\THEMONTH}/\twodigit{\THEDAY}}
+\newsavebox{\MONDAY}\savebox{\MONDAY}{Mon}% Mon
+\newcommand{\week}[1]{%
+%  \cleardate{mydate}% Clear date
+% \newdate{mydate}{\the\day}{\the\month}{\the\year}% Store date
+  \paragraph*{\kern-2ex\quad #1, \syldate{\today} - \AdvanceDate[4]\syldate{\today}:}% Set heading  \quad #1
+%  \setbox1=\hbox{\shortdayofweekname{\getdateday{mydate}}{\getdatemonth{mydate}}{\getdateyear{mydate}}}%
+  \ifdim\wd1=\wd\MONDAY
+    \AdvanceDate[7]
+  \else
+    \AdvanceDate[7]
+  \fi%
+}
+\usepackage{setspace}
+\usepackage{multicol}
+%\usepackage{indentfirst}
+\usepackage{fancyhdr,lastpage}
+\usepackage{url}
+\pagestyle{fancy}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{amsmath}
+\usepackage{layout}
+
+\lhead{}
+\chead{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Modify header here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\rhead{\footnotesize Syllabus}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Don't touch this %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lfoot{}
+\cfoot{\small \thepage/\pageref*{LastPage}}
+\rfoot{}
+
+\usepackage{array, xcolor}
+\usepackage{color,hyperref}
+\definecolor{clemsonorange}{HTML}{EA6A20}
+\hypersetup{colorlinks,breaklinks,linkcolor=clemsonorange,urlcolor=clemsonorange,anchorcolor=clemsonorange,citecolor=black}
+
+\begin{document}
+
+\maketitle
+
+\blankline
+
+\begin{tabular*}{.93\textwidth}{@{\extracolsep{\fill}}lr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Modify information %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+E-mail: \texttt{logan.reed@rutgers.edu} 
+\\
+
+ Office Hours: T/TH 2-3PM  &  Class Hours: M/W 3:45-5:35pm \\
+
+ Office: Armitage 306 & Class Room: Armitage 206 \\
+ 
+Final Date: Wed, Dec. 22nd  & Final Time: 2:45-5:45pm \\
+&  \\
+\hline
+\end{tabular*}
+
+\vspace{5 mm}
+
+% First Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Course Description}
+
+This is an introductory course on college level algebra which prepares
+the student for precalculus mathematics. This course will include
+chapters 3-12 from the textbook and incorporate arithmetic review
+throughout.
+
+\bigskip
+
+\noindent Topics covered include algebraic equations and
+inequalities, coordinate geometry and systems of linear equations,
+operations on and factoring of polynomials, rational expressions and
+equations, roots and radicals,quadratic equations (with both real and
+complex solutions), equations and graphs of conic sections, and
+introduction to functions (time permitting).
+
+% Second Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Textbook}
+
+\begin{itemize}
+\item Elementary and Intermediate Algebra, 6th Edition. Kaufmann and Schwiters
+\end{itemize}
+
+% Third Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{COVID Protocol}
+All students are required to follow Rutgers University mandates regarding
+safe practices during the current pandemic including but not limited to proper mask use (worn
+in such a way as to cover both mouth and nose). More information can be found by visiting \\
+https://coronavirus.rutgers.edu/health-and-safety/community-safety-practices/. 
+
+% Fifth Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\section*{Grading Policy}
+I reserve the right to curve the scale dependent on overall class scores at the end of the semester. Any curve will only ever make it easier to obtain a certain letter grade. The grade will be calculated in the following way:
+\begin{itemize}
+	\item \underline{\textbf{60\%}} of your grade will be determined by 4 in-class midterm exams (15\% each).
+	\item \underline{\textbf{30\%}} of your grade will be determined by the Final Exam.
+	\item \underline{\textbf{10\%}} of your grade will be determined by class participation.
+\end{itemize}
+
+\subsection*{Exam Policy}
+There will be four regular semester exams and one cumulative final exam. At the
+end of the semester the lowest grade from the semester exams will be replaced by the final exam
+grade. \textbf{No make up exams will be given}. If one exam is missed for any reason (excused or
+unexcused) that grade will be the one replaced by the final exam grade. Further missed exams will
+be given a grade of 0. \textbf{Calculators are not allowed on exams}.
+
+\subsection*{Homework}
+Homework will not be collected/graded for this course. However, you will be expected
+to review the material and work on problems outside of class. Sample problems will be suggested
+for the sections covered in class. The rule of thumb for a college course is two hours studying for
+each hour spent in class.
+
+% Fifth Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Course Policies}
+
+\subsection*{Code of Conduct and Academic Integrity}
+\footnotesize{Rutgers University-Camden seeks a community that is free from violence, threats, and intimidation; is
+respectful of the rights, opportunities, and welfare of students, faculty, staff, and guests of the
+University; and does not threaten the physical or mental health or safety of members of the University
+community, including in classroom space, and a community in which students respect academic
+integrity and the integrity of your own and others’ work.
+As a student at the University you are expected adhere to the Student Code of Conduct and
+Academic Integrity Policy. To review the academic integrity policy, go to
+https://deanofstudents.camden.rutgers.edu/academic-integrity To review the code, go
+to: https://deanofstudents.camden.rutgers.edu/student-conduct}
+
+\subsection*{Accommodations for Disabilities}
+\footnotesize{Rutgers University welcomes students with disabilities into all of the University’s educational programs. In order to receive consideration for reasonable accommodations, a student with a disability must contact the appropriate disability services office at the campus where you are officially enrolled, participate in an intake interview, and provide documentation: https://ods.rutgers.edu/students/documentations-guidelines. If the documentation supports your request for reasonable accommodations, your campus’s disability services office will provide you with a Letter of Accommodations. Please share this letter with your instructors and discuss the accommodations with them as early in your courses as possible. To begin this process, please complete the registration form at \\https://webapps.rutgers.edu/student-ods/forms/registration.}
+
+% Fourth Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\section*{Sections Covered}
+\textbf{EXAM ONE:} \\
+3.1: Solving First-Degree Equations \\
+3.2: Equations and Problem Solving \\
+3.3: More on Solving Equations and Problem Solving \\
+3.4: Equations Involving Parenthesis and Fractional Forms \\
+3.5: Inequalities \\
+3.6: Inequalities, Compound Inequalities, and Problem Solving \\
+4.1: Ratio, Proportion, and Percent \\
+4.2 More on Percents and Problem Solving \\
+4.3: Formulas \\
+4.4: Problem Solving \\
+4.5: More about Problem Solving \\
+\textbf{EXAM TWO:} \\
+5.1: Cartesian Coordinate System \\
+5.2: Graphing Linear Equations \\
+5.3: Slope of a Line \\
+5.4: Writing Equations of Lines \\
+5.5: Systems of Two Linear Equations \\
+5.6: Elimination-by-Addition Method \\
+5.7: Graphing Linear Inequalities \\
+6.1: Addition and Subtraction of Polynomials \\
+6.2: Multiplying Monomials \\
+6.3: Multiplying Polynomials \\
+6.4: Dividing by Monomials, \\
+6.5: Dividing by Binomials \\
+6.6: Integral Exponents and Scientific Notation \\
+7.1: Factoring by Using the Distributive Property \\
+7.2: Factoring the Difference of Two Squares \\
+7.3: Factoring Trinomials of the Form $x^2 + bxc$ \\
+7.4: Factoring Trinomials of the Form $ax^2 + bx + c$ \\
+7.5: Factoring, Solving Equations, and Problem Solving \\
+\textbf{EXAM THREE:} \\
+9.1: Simplifying Rational Expressions \\
+9.2: Multiplying and Dividing Rational Expressions \\
+9.3: Adding and Subtracting Rational Expressions \\
+9.4: More on Rational Expressions and Complex Fractions \\
+9.5: Equations Containing Rational Expressions \\
+9.6: More on Rational Equations and Applications \\
+10.1: Integral Exponents and Scientific Notation Revisited \\
+10.2: Roots and Radicals \\
+10.3: Simplifying and Combining Radicals \\
+10.4: Products and Quotients of Radicals \\
+10.5: Radical Equations \\
+10.6: Merging Exponents and Roots \\
+\textbf{EXAM FOUR:} \\
+11.1: Complex Numbers \\
+11.2: Quadratic Equations \\
+11.3: Completing the Square \\
+11.4: Quadratic Formula \\
+11.5: More on Quadratic Equations and Applications \\
+11.6: Quadratic and Other Nonlinear Inequalities \\
+12.1: Distance, Slope and Graphing Techniques \\
+12.2: Graphing Parabolas \\
+12.3: More Parabolas and Some Circles \\
+12.4: Graphing Ellipses \\
+12.5: Graphing Hyperbolas \\
+Further Topics (Time Permitting): Function Notation, Domain, Range, Inverse, and Composition
+
+\end{document}
