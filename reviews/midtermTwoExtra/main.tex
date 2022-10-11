@@ -1,0 +1,83 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Do not alter this block (unless you're familiar with LaTeX)
+\documentclass{article}
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,amsfonts, fancyhdr, color, comment, graphicx, environ}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage[shortlabels]{enumitem}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{mathrsfs}
+
+\RequirePackage{latexsym, verbatim, xspace, setspace, systeme}
+\RequirePackage{tikz, pgf, pgfplots}
+
+\pgfplotsset{compat=1.15}
+\usepgfplotslibrary{fillbetween}
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{arrows}
+\usetikzlibrary{calc}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+
+\pagestyle{fancy}
+
+
+\newenvironment{problem}[2][Problem]
+    { \begin{mdframed}[backgroundcolor=gray!20] \textbf{#1 #2} \\}
+    {  \end{mdframed}}
+
+% Define solution environment
+\newenvironment{solution}{\textbf{Solution}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Fill in the appropriate information below
+\lhead{College Algebra}
+\rhead{640:104:05} 
+\chead{\textbf{EXAM TWO REVIEW}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+    \subsection*{Draw a Cartesian Coordinate Plane and Add:}
+    \begin{enumerate}
+        \item Label the Quadrants
+        \item Draw the Points and Label: \quad $A(1,0) \text{\quad} B(0,1) \text{\quad} C(1,1) \text{\quad} D(-1,-1)$
+        \item Draw the Line Containing the Points: \quad $P(-1,-2) \text{\quad} Q(0,1)$
+    \end{enumerate}
+    
+    \subsection*{Find the Slope Between the Points}
+    \begin{enumerate}
+        \item $A(1,1) \text{\quad} B(1,-1)$
+        \item $C(-2,4) \text{\quad} D(2,-6)$
+        \item $E(0,0) \text{\quad} F(-1,0)$
+        \item $G(3,4) \text{\quad} H(3,-6)$
+    \end{enumerate}
+    
+    \subsection*{Write the Appropriate Linear Equation}
+    \begin{enumerate}
+        \item Write the Standard Form for a Line
+        \item Write the Slope-Intercept Form
+        \item Write the Point-Slope Form
+        \item Give the Four Linear Equations for the Previous Section in Each Form
+        
+    \end{enumerate}
+    
+    \subsection*{Simplify:}
+    \begin{enumerate}
+        \item $(-3x^2 + 2x - 1) - (7x^2 - 4x + 9) + (4x^2 + 9x - 10)$
+        \item $(2x + 3) \cdot (x^2 -3x + 1)$
+        \item $$\left( \frac{8a^4b^6}{2a^6b^3}\right)^{\!2}$$
+        \item $$ \frac{12x^2 + x - 6}{3x - 2} $$
+    \end{enumerate}
+
+\end{document}
