@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1667869343 "main.tex" "build/main.pdf" "main" 1667869344
+["pdflatex"] 1668983180 "main.tex" "build/main.pdf" "main" 1668983181
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1650183167 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1650183167 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -27,6 +27,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1650183167 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/share/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1650183167 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1650183167 34811 78b52f49e893bcba91bd7581cdc144c0 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1650183167 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1650183167 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1650183167 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1650183167 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
@@ -190,10 +191,10 @@
   "/usr/share/texmf-dist/tex/latex/tools/xspace.sty" 1650183167 4545 d84d0b20a11b9c36c6ecf45697be591c ""
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1650183167 56029 3f7889dab51d620aa43177c391b7b190 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1666467539 4278762 af3ac1370db81a450c1118eabf1fe718 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1666467524 2927663 a364e50a45bd27cdc41b1d1c19575cb2 ""
-  "build/main.aux" 1667869343 3129 111e2b526bdf7cf4b525ae1879edd7ce "pdflatex"
-  "main.tex" 1667869342 6168 339b082eea279b2b5dd4a17febb59c34 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1668626603 4278762 af3ac1370db81a450c1118eabf1fe718 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1668626591 2927660 7615bd7a5e290bc411e782fd17ebbc61 ""
+  "build/main.aux" 1668983181 3129 111e2b526bdf7cf4b525ae1879edd7ce "pdflatex"
+  "main.tex" 1668983178 6223 91d8a87f4583a164ae93ba1cc4877c26 ""
   (generated)
   "build/main.aux"
   "build/main.log"

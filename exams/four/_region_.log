@@ -1,0 +1,366 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=prv_main 2023.1.11)  11 JAN 2023 23:31
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**&prv_main /AUCTEXINPUT{ _region_.tex }
+(./_region_.tex (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count347
+\l__pdf_internal_box=\box65
+)
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count348
+\scratchdimen=\dimen282
+\scratchbox=\box66
+\nofMPsegments=\count349
+\nofMParguments=\count350
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count351
+\MPscratchDim=\dimen283
+\MPnumerator=\count352
+\makeMPintoPDFobject=\count353
+\everyMPtoPDFconversion=\toks56
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-30.0pt
+* \headheight=15.0pt
+* \headsep=15.0pt
+* \topskip=11.0pt
+* \footskip=29.0pt
+* \marginparwidth=36.135pt
+* \marginparsep=5.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/home/occam/.emacs.d/elpa/auctex-13.1.6/latex/preview.sty
+Package: preview 2017/04/24 13.1 (AUCTeX/preview-latex)
+ (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/home/occam/.emacs.d/elpa/auctex-13.1.6/latex/prtightpage.def
+\PreviewBorder=\dimen284
+) (/home/occam/.emacs.d/elpa/auctex-13.1.6/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count354
+\hfuzz=\dimen285
+(/home/occam/.emacs.d/elpa/auctex-13.1.6/latex/prauctex.cfg)) (/home/occam/.emacs.d/elpa/auctex-13.1.6/latex/prfootnotes.def)
+\pr@snippet=\count355
+\pr@box=\box67
+\pr@output=\toks57
+
+Preview: Fontsize 10.95pt
+Preview: PDFoutput 1
+)  !name(main.tex) !offset(-3) 
+
+Class exam Warning: You must run LaTeX again to produce the table.
+(exam)               on input line 99.
+
+./_region_.tex:121: Preview: Snippet 1 started.
+<-><->
+      
+l.121 \part[5] $
+                $ \frac{\sqrt{x} - 2}{\sqrt{x} + 6} $$
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./_region_.tex:121: Preview: Snippet 1 ended.(1792684+0x30785865).
+<-><->
+      
+l.121 ...] $$ \frac{\sqrt{x} - 2}{\sqrt{x} + 6} $$
+                                                  
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./_region_.tex:123: Preview: Snippet 2 started.
+<-><->
+      
+l.123 \part[5] $
+                $ \sqrt{\frac{27}{16}} $$
+Not a real error.
+
+./_region_.tex:123: Preview: Snippet 2 ended.(1816543+0x30785865).
+<-><->
+      
+l.123 \part[5] $$ \sqrt{\frac{27}{16}} $$
+                                         
+Not a real error.
+
+[2]
+./_region_.tex:125: Preview: Snippet 3 started.
+<-><->
+      
+l.125 \part[10] $
+                 $ \frac{\sqrt[3]{12xy}}{\sqrt[3]{3x^{2}y^{5}}} $$
+Not a real error.
+
+./_region_.tex:125: Preview: Snippet 3 ended.(1943194+0x30785865).
+<-><->
+      
+l.125 ...\sqrt[3]{12xy}}{\sqrt[3]{3x^{2}y^{5}}} $$
+                                                  
+Not a real error.
+
+[3]
+./_region_.tex:127: Preview: Snippet 4 started.
+<-><->
+      
+l.127 \part[5] $
+                $ \sqrt[3]{64} $$
+Not a real error.
+
+./_region_.tex:127: Preview: Snippet 4 ended.(951541+0x30785865).
+<-><->
+      
+l.127 \part[5] $$ \sqrt[3]{64} $$
+                                 
+Not a real error.
+
+[4]
+./_region_.tex:129: Preview: Snippet 5 started.
+<-><->
+      
+l.129 \part[5] $
+                $ i^{123} $$
+Not a real error.
+
+./_region_.tex:129: Preview: Snippet 5 ended.(891290+0x30785865).
+<-><->
+      
+l.129 \part[5] $$ i^{123} $$
+                            
+Not a real error.
+
+[5]
+./_region_.tex:138: Preview: Snippet 6 started.
+<-><->
+      
+l.138 \part[5] $
+                $(10 + 2i)(-2-i)$$
+Not a real error.
+
+./_region_.tex:138: Preview: Snippet 6 ended.(1070694+0x30785865).
+<-><->
+      
+l.138 \part[5] $$(10 + 2i)(-2-i)$$
+                                  
+Not a real error.
+
+[6]
+./_region_.tex:140: Preview: Snippet 7 started.
+<-><->
+      
+l.140 \part[5] $
+                $ \sqrt{\frac{-16}{25}} $$
+Not a real error.
+
+./_region_.tex:140: Preview: Snippet 7 ended.(1816543+0x30785865).
+<-><->
+      
+l.140 \part[5] $$ \sqrt{\frac{-16}{25}} $$
+                                          
+Not a real error.
+
+[7]
+./_region_.tex:142: Preview: Snippet 8 started.
+<-><->
+      
+l.142 \part[5] $
+                $ \frac{-4-7i}{6i} $$
+Not a real error.
+
+./_region_.tex:142: Preview: Snippet 8 ended.(1516548+0x30785865).
+<-><->
+      
+l.142 \part[5] $$ \frac{-4-7i}{6i} $$
+                                     
+Not a real error.
+
+[8]
+./_region_.tex:144: Preview: Snippet 9 started.
+<-><->
+      
+l.144 \part[5] $
+                $ \frac{2+6i}{1+7i} $$
+Not a real error.
+
+./_region_.tex:144: Preview: Snippet 9 ended.(1576350+0x30785865).
+<-><->
+      
+l.144 \part[5] $$ \frac{2+6i}{1+7i} $$
+                                      
+Not a real error.
+
+[9]
+./_region_.tex:155: Preview: Snippet 10 started.
+<-><->
+      
+l.155 \part[5] $
+                $ x^2 - 7x + 3 = 0 $$
+Not a real error.
+
+./_region_.tex:155: Preview: Snippet 10 ended.(951092+0x30785865).
+<-><->
+      
+l.155 \part[5] $$ x^2 - 7x + 3 = 0 $$
+                                     
+Not a real error.
+
+[10]
+./_region_.tex:157: Preview: Snippet 11 started.
+<-><->
+      
+l.157 \part[5] $
+                $\sqrt{2x-1} - \sqrt{x+3}= 1 $$
+Not a real error.
+
+./_region_.tex:157: Preview: Snippet 11 ended.(981442+0x30785865).
+<-><->
+      
+l.157 \part[5] $$\sqrt{2x-1} - \sqrt{x+3}= 1 $$
+                                               
+Not a real error.
+
+[11]
+./_region_.tex:159: Preview: Snippet 12 started.
+<-><->
+      
+l.159 \part[5] $
+                $ (x+3)(2x+1) = -3 $$
+Not a real error.
+
+./_region_.tex:159: Preview: Snippet 12 ended.(1070694+0x30785865).
+<-><->
+      
+l.159 \part[5] $$ (x+3)(2x+1) = -3 $$
+                                     
+Not a real error.
+
+[12]
+./_region_.tex:161: Preview: Snippet 13 started.
+<-><->
+      
+l.161 \part[5] $
+                $ 3(x-7)^2 + 4 = 79 $$
+Not a real error.
+
+./_region_.tex:161: Preview: Snippet 13 ended.(1070694+0x30785865).
+<-><->
+      
+l.161 \part[5] $$ 3(x-7)^2 + 4 = 79 $$
+                                      
+Not a real error.
+
+[13]
+./_region_.tex:163: Preview: Snippet 14 started.
+<-><->
+      
+l.163 \part[5] $
+                $x^2 + 6x - 3 = 0$$
+Not a real error.
+
+./_region_.tex:163: Preview: Snippet 14 ended.(951092+0x30785865).
+<-><->
+      
+l.163 \part[5] $$x^2 + 6x - 3 = 0$$
+                                   
+Not a real error.
+
+[14]
+./_region_.tex:173: Preview: Snippet 15 started.
+<-><->
+      
+l.173 \question[15] Graph the function $
+                                        f(x) = 2x^2$. Explicitly write the f...
+Not a real error.
+
+./_region_.tex:173: Preview: Snippet 15 ended.(598293+179404x3433938).
+<-><->
+      
+l.173 ...tion[15] Graph the function $f(x) = 2x^2$
+                                                  . Explicitly write the fun...
+Not a real error.
+
+[15]
+./_region_.tex:173: Preview: Snippet 16 started.
+<-><->
+      
+l.173 ...e function that is obtained by shifting $
+                                                  f(x)$ 5 units down and 8 u...
+Not a real error.
+
+./_region_.tex:173: Preview: Snippet 16 ended.(538214+179404x1396869).
+<-><->
+      
+l.173 ...ction that is obtained by shifting $f(x)$
+                                                   5 units down and 8 units ...
+Not a real error.
+
+[16]
+This exam contains 6 questions with 14 parts, 0 subparts, and 0 subsubparts.
+This exam has a total of 110 points.
+This exam has a total of 0 bonus points.
+ ) 
+Here is how much of TeX's memory you used:
+ 813 strings out of 452340
+ 15220 string characters out of 5192858
+ 1061082 words of memory out of 5000000
+ 44475 multiletter control sequences out of 15000+600000
+ 477143 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 46i,10n,55p,292b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on _region_.pdf (16 pages, 57530 bytes).
+PDF statistics:
+ 89 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
